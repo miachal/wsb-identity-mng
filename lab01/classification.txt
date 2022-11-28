@@ -1,0 +1,11 @@
+I Grupa danych - poufne
+Imię i nazwisko - publiczne
+ID Pracownika - wewnętrzne
+Dane biometryczne np. odcisk palca - poufne
+Numer karty debetowej - poufne
+
+II Grupa danych - wewnętrzne
+Imię i nazwisko - publiczne
+Nazwa stanowiska - publiczne
+Zawód - publiczne
+Historia choroby - wewnętrzne (np. na potrzeby placówki medycznej)

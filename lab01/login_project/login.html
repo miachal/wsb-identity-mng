@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Login</title>
+    <!-- korzystamy z bootstrapa -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <!-- tworzymy kontener z szerokością 25% -->
+    <div class="container w-25">
+        <!-- wiersz z marginesem górnym -->
+        <div class="row mt-4">
+            <!-- pusty kontener na nasze powiadomienia -->
+            <div class="msg-alert alert" role="alert"></div>
+            <!-- karta z odpowiednim paddingiem dla zawartości -->
+            <form class="card p-4">
+                <!-- margines dolny dla lepszej widoczności -->
+                <div class="mb-3">
+                    <!-- labelka dla pola logowania -->
+                    <label for="login" class="form-label">Login</label>
+                    <!-- pole logowania -->
+                    <input type="login" class="form-control" id="login">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Hasło</label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <!-- przycisk do wysłania formularza -->
+                <button type="submit" class="btn btn-primary">Zaloguj</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- nasz skrypt do weryfikacji -->
+    <script src="./login.js"></script>
+</body>
+
+</html>

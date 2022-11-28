@@ -1,0 +1,3 @@
+
+body { background: #ccc; }
+.msg-alert { display: none } /* na początku nie chcemy, aby nasz kontener na powiadomienia był widoczny */
